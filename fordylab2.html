@@ -1,0 +1,33 @@
+C:\Users\Complab>echo "# cliff" >> README.md
+
+C:\Users\Complab>git init
+Reinitialized existing Git repository in C:/Users/Complab/.git/
+
+C:\Users\Complab>git add README.md
+
+C:\Users\Complab>git commit -m "lab2"
+[master e317302] lab2
+ 1 file changed, 1 insertion(+)
+
+C:\Users\Complab>git remote add origin https://github.com/Fordy02/cliff.git
+fatal: remote origin already exists.
+
+C:\Users\Complab>git push -u origin master
+Counting objects: 12, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (12/12), 973 bytes | 486.00 KiB/s, done.
+Total 12 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Fordy02/cliff.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\Complab>git remote add origin https://github.com/Fordy02/cliff.git
+fatal: remote origin already exists.
+
+C:\Users\Complab>git push -u origin master
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\Complab>
